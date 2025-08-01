@@ -16,9 +16,9 @@ function Header() {
 ```
 
 ## Props
-properties sent from parent to child  
-Used to pass data between components  
-Props control what a component displays  
+- properties sent from parent to child  
+- Used to pass data between components  
+- props control what a component displays  
 
 ```bash
 function Welcome(props) {
@@ -27,9 +27,9 @@ function Welcome(props) {
 ```
   
 ## React Router DOM
-Used for navigation in React apps  
-Helps switch between pages without page reload  
-Enables smooth transitions in SPAs  
+- Used for navigation in React apps  
+- Helps switch between pages without page reload  
+- Enables smooth transitions in SPAs  
   
 ✅ Check Node.js Setup
 ```bash
@@ -39,8 +39,8 @@ npx --version
 ```
   
 ## JSX (JavaScript + HTML)
-JSX lets you write HTML inside JavaScript  
-All elements must be wrapped in one parent tag  
+- JSX lets you write HTML inside JavaScript  
+- All elements must be wrapped in one parent tag  
   
 ```bash
 return (
@@ -52,19 +52,19 @@ return (
 ```
   
 ## React Folder Structure
-src/ → Main app code lives here  
-public/ → Static files like images, icons, favicon  
-index.js → Entry point of the app  
-package.json → Project dependencies and scripts  
+- src/ → Main app code lives here  
+- public/ → Static files like images, icons, favicon  
+- index.js → Entry point of the app  
+- package.json → Project dependencies and scripts  
   
 ## Bootstrap with React
-Bootstrap is a CSS framework  
-Use React-Bootstrap to integrate easily with React  
-npm install react-bootstrap bootstrap  
+- Bootstrap is a CSS framework  
+- Use React-Bootstrap to integrate easily with React  
+- npm install react-bootstrap bootstrap  
   
 import 'bootstrap/dist/css/bootstrap.min.css';  
-📥 Import Types in React  
-✅ Default Import  
+- 📥 Import Types in React  
+- ✅ Default Import  
   
 import Header from "./Header";  
 ✅ Named Import  
@@ -77,23 +77,23 @@ const names = ["A", "B", "C"];
 names.map((n) => <p>{n}</p>);
 ```
   
-.map() is used to loop through arrays and return elements  
+- .map() is used to loop through arrays and return elements  
   
 ## React Hooks
-Importing hooks:  
+- Importing hooks:  
 ```bash
 import React, { useState, useEffect } from "react";
 ```
   
 ## Common Built-in Hooks
-useState – for managing local state  
-useEffect – for side effects like fetching data  
-useContext – for accessing global state  
-useCallback – for memoizing functions  
-useReducer – for complex state logic  
+- useState – for managing local state  
+- useEffect – for side effects like fetching data  
+- useContext – for accessing global state  
+- useCallback – for memoizing functions  
+- useReducer – for complex state logic  
   
 ## Conditional Rendering
-Use conditions to decide what to show:  
+- Use conditions to decide what to show:  
     
 // if-else with ternary  
 ```bash
